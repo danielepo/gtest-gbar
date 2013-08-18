@@ -3,11 +3,19 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 using System.Windows.Forms;
+using Guitar.Lib;
 
 namespace Guitar
 {
-    class Configurator
+    class Configurator 
     {
+        const string SETTING_MAX_HISTORY = "maxHistory";
+        public const string SETTING_GTEST_EXES = "gtest";
+        public const string SETTING_GTEST_PARAMS = "gtest-params";
+        public const string SETTING_GTEST_STARTUP_FOLDER = "gtest-startupFolder";
+        public const string SETTING_GTEST_SHUFFLE = "gtest-shuffle";
+        public const string SETTING_GTEST_RUNDISABLED = "gtest-rundisabled";
+
         private Configuration config;
         private AppSettingsSection programSettings;
         Dictionary<string, ComboBox> comboboxMap;

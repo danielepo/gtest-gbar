@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.TestPlatform.ObjectModel</id>
+    <version>0.0.2</version>
+    <title>Visual Studio 11 test runner library</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <iconUrl>https://nugetgallery.blob.core.windows.net/icons/Microsoft.VisualStudio.TestPlatform.ObjectModel.0.0.2.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Visual Studio 11 test runner library</description>
+    <summary>Visual Studio 11 test runner library</summary>
+  </metadata>
+</package>
